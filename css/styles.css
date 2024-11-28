@@ -1,0 +1,149 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    cursor: url(../img/wcursor.cur), default;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Encabezados */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Formularios */
+form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+/* Botones */
+.boton {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    opacity: 0.9;
+}
+
+.boton.rojo {
+    background-color: red;
+}
+
+.boton.rojo:hover {
+    background-color: darkred;
+}
+
+/* Filtros */
+.filtros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.filtros label {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.filtros input[type="text"],
+.filtros input[type="number"],
+.filtros button {
+    width: auto;
+    margin: 0 10px 0 0;
+}
+
+.filtros button {
+    background-color: #007bff;
+    color: white;
+}
+
+.filtros button:hover {
+    background-color: #0056b3;
+}
